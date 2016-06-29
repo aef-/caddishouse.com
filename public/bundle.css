@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'Klartext Mono';
+	src: url('/public/fonts/klartext-mono/KlartextMono-Light-webfont.eot');
+	src: url('/public/fonts/klartext-mono/KlartextMono-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/public/fonts/klartext-mono/KlartextMono-Light-webfont.woff2') format('woff2'),
+		url('/public/fonts/klartext-mono/KlartextMono-Light-webfont.woff') format('woff'),
+		url('/public/fonts/klartext-mono/KlartextMono-Light-webfont.ttf') format('truetype'),
+		url('/public/fonts/klartext-mono/KlartextMono-Light-webfont.svg#klartext_monolight') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Hewitt';
+	src: url('/public/fonts/cooper-hewitt/cooperhewitt-bold-webfont.eot');
+	src: url('/public/fonts/cooper-hewitt/cooperhewitt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/public/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff2') format('woff2'),
+		url('/public/fonts/cooper-hewitt/cooperhewitt-bold-webfont.woff') format('woff'),
+		url('/public/fonts/cooper-hewitt/cooperhewitt-bold-webfont.ttf') format('truetype'),
+		url('/public/fonts/cooper-hewitt/cooperhewitt-bold-webfont.svg#cooper_hewittbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+._src_exhibits_style__container {
+  top: 10%;
+  left: 5%;
+  position: absolute;
+}
+
+._src_exhibits_style__header, ._src_exhibits_style__content, ._src_exhibits_style__footer {
+  background-color: #1E1E1E;
+  font-family: 'Klartext Mono';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 12px;
+  width: 300px;
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+._src_exhibits_style__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+._src_exhibits_style__content {
+  margin-bottom: 50px;
+}
+
+._src_exhibits_style__title {
+  font-family: 'Cooper Hewitt';
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+._src_exhibits_style__subtitle {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+._src_controls_style__container {
+  top: 10%;
+  right: 5%;
+  position: absolute;
+}
+
+._src_controls_style__header {
+  background-color: #1E1E1E;
+  font-family: 'Klartext Mono';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 12px;
+  width: 300px;
+  font-weight: 100;
+  font-size: 0.9em;
+}

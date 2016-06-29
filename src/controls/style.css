@@ -1,0 +1,16 @@
+.container {
+  top: 10%;
+  right: 5%;
+  position: absolute;
+}
+
+.header {
+  background-color: #1E1E1E;
+  font-family: 'Klartext Mono';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 12px;
+  width: 300px;
+  font-weight: 100;
+  font-size: 0.9em;
+}

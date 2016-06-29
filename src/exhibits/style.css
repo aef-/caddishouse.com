@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Klartext Mono';
+	src: resolve('klartext-mono/KlartextMono-Light-webfont.eot');
+	src: resolve('klartext-mono/KlartextMono-Light-webfont.eot?#iefix') format('embedded-opentype'),
+		resolve('klartext-mono/KlartextMono-Light-webfont.woff2') format('woff2'),
+		resolve('klartext-mono/KlartextMono-Light-webfont.woff') format('woff'),
+		resolve('klartext-mono/KlartextMono-Light-webfont.ttf') format('truetype'),
+		resolve('klartext-mono/KlartextMono-Light-webfont.svg#klartext_monolight') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cooper Hewitt';
+	src: resolve('cooper-hewitt/cooperhewitt-bold-webfont.eot');
+	src: resolve('cooper-hewitt/cooperhewitt-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		resolve('cooper-hewitt/cooperhewitt-bold-webfont.woff2') format('woff2'),
+		resolve('cooper-hewitt/cooperhewitt-bold-webfont.woff') format('woff'),
+		resolve('cooper-hewitt/cooperhewitt-bold-webfont.ttf') format('truetype'),
+		resolve('cooper-hewitt/cooperhewitt-bold-webfont.svg#cooper_hewittbold') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+
+.container {
+  top: 10%;
+  left: 5%;
+  position: absolute;
+}
+
+.header, .content, .footer {
+  background-color: #1E1E1E;
+  font-family: 'Klartext Mono';
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 8px 12px;
+  width: 300px;
+  font-weight: 100;
+  font-size: 0.9em;
+}
+
+.header {
+  display: flex;
+  margin-bottom: 10px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.content {
+  margin-bottom: 50px;
+}
+
+.title {
+  font-family: 'Cooper Hewitt';
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.subtitle {
+  align-self: center;
+}

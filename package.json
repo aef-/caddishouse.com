@@ -1,0 +1,32 @@
+{
+  "name": "cataract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/run",
+  "scripts": {
+    "dev": "node tools/dev",
+    "build:js": "browserify -t [es2015 stage-1 react] -o public/bundle.js -v",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "color": "^0.11.1",
+    "paper": "^0.9.25",
+    "react": "^15.0.2",
+    "react-router": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babelify": "^7.2.0",
+    "budo": "^8.2.2",
+    "css-modulesify": "^0.23.0",
+    "postcss": "^5.0.21",
+    "postcss-assets": "^4.1.0",
+    "postcss-cssnext": "^2.5.2",
+    "postcss-fontpath": "^0.3.0",
+    "postcss-reporter": "^1.3.3"
+  }
+}
