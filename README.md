@@ -8,8 +8,9 @@ npm install
 npm run dev
 ```
 
-http://localhost:8000/movement-in-squares
-http://localhost:8000/cataract
+Exhisting exhibitions
+* [Movement in Squares](http://localhost:8000/movement-in-squares)
+* [Cataract](http://localhost:8000/cataract)
 
 
 ## TODO
